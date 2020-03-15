@@ -28,7 +28,7 @@ There are 4 configuration files in the [`configs`](configs) directory right now.
 
 ## Non-scientific Single-run Measurements
 
-This set of tests was created to get a ballpark performance comparison between Apache Hive and Presto on Google Dataproc using publicly-available data sets on Google BigQuery.  The time measures are what's returned by Hive and Presto using 3 `e2-standard-2` worker nodes and a single `e2-standard-2` master node, each with only 500GB of `pd-standard` storage.  The numbers are collected with a single run each, and validated that they are in the right ballpark with additional runs.  However, single-run numbers are being reported here cos it serves my purpose of getting relative performance numbers.
+This set of tests was created to get a ballpark performance comparison between Apache Hive and Presto on Google Dataproc using publicly-available data sets on Google BigQuery.  The time measures are what's returned by Hive and Presto using 3 `e2-standard-2` worker nodes and a single `e2-standard-2` master node, each with only 500GB of `pd-standard` storage (cos I was working within the limits of the [free trial](https://cloud.google.com/docs/quota)).  The numbers are collected with a single run each, and validated that they are in the right ballpark with additional runs.  However, single-run numbers are being reported here cos it serves my purpose of getting relative performance numbers.
 
 ### Shakespeare Word Count Sample
 
